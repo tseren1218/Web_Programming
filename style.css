@@ -1,0 +1,67 @@
+html {
+       --default-brown: #5E1F13;
+       --default-white: #FFF2E1;
+       --background-yellow: #FAC450;
+       background-color: var(--background-yellow);
+}
+
+body {
+       margin: 0;
+       padding: ;
+       font-family: Nunito;
+} 
+
+nav {
+       position: fixed;
+       top: 0;
+       left: 0;
+       padding: 10px 50px;
+       height: 100px;
+       width: 100%;
+       box-sizing: border-box;
+       background-color: #5E1F13;
+}
+
+.logo {
+       height: 80px;
+       width: auto;
+       display: flex;
+       align-items: center;
+}
+
+nav ul {
+       display: flex;
+       list-style: none;
+       margin: 0;
+}
+
+nav ul li a{
+       line-height: 80px;
+       padding: 12px 30px;
+       font-size: 150%;
+       color: var(--default-white);
+       text-decoration: none;
+
+
+}
+
+nav ul li a:visited {
+       color: var(--default-white);
+}
+
+.navbar-left-items {
+       float: left;
+       margin-left: 50px;
+}
+
+.navbar-right-items {
+       float: right;
+       margin-right: 50px;
+}
+
+.carousel {
+       display: flex;
+       align-items: center;
+}
+
+.carousel
